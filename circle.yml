@@ -18,4 +18,4 @@ deployment:
   master:
     branch: master
     commands:
-    ./uploadS3.sh
+      - ./uploadS3.sh
