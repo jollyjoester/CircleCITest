@@ -15,5 +15,7 @@ test:
     #- ./tools/test.sh
 
 deployment:
-commands:
+  master:
+    branch: master
+    commands:
     ./uploadS3.sh
