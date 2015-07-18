@@ -15,4 +15,5 @@ test:
     #- ./tools/test.sh
 
 deployment:
+commands:
     ./uploadS3.sh
